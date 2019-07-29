@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<head>
+    <style>
+    .error{
+        color: red;
+    }
+    nav ul{
+        list-style-type: none;
+    }
+    nav ul li{
+        display: inline;
+        padding-right:20px;
+    }
+    </style>
+</head>
+<nav>
+    <ul>
+        <a href='/blogs'><li>Blogs</li></a>
+        <a href='/new_blog'><li>New Blog</li></a>
+    </ul>
+</nav>
+{% block content %}
+{% endblock %}
+</html>
